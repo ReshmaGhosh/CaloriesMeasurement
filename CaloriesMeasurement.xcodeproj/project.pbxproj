@@ -11,27 +11,13 @@
 		73EEA87F29511E5E003CF3DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EEA87E29511E5E003CF3DA /* ContentView.swift */; };
 		73EEA88129511E5F003CF3DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73EEA88029511E5F003CF3DA /* Assets.xcassets */; };
 		73EEA88429511E5F003CF3DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73EEA88329511E5F003CF3DA /* Preview Assets.xcassets */; };
-		73EEA88E29511E5F003CF3DA /* CaloriesMeasurementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EEA88D29511E5F003CF3DA /* CaloriesMeasurementTests.swift */; };
-		73EEA89829511E5F003CF3DA /* CaloriesMeasurementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EEA89729511E5F003CF3DA /* CaloriesMeasurementUITests.swift */; };
-		73EEA89A29511E5F003CF3DA /* CaloriesMeasurementUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EEA89929511E5F003CF3DA /* CaloriesMeasurementUITestsLaunchTests.swift */; };
+		73EEA8AA29511F68003CF3DA /* TimeFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EEA8A929511F68003CF3DA /* TimeFormatting.swift */; };
+		73EEA8B029512004003CF3DA /* AddFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EEA8AF29512004003CF3DA /* AddFoodView.swift */; };
+		73EEA8B22951201A003CF3DA /* EditFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EEA8B12951201A003CF3DA /* EditFoodView.swift */; };
+		73EEA8B529512077003CF3DA /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EEA8B429512077003CF3DA /* DataController.swift */; };
+		73EEA8B829512096003CF3DA /* FoodModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 73EEA8B629512096003CF3DA /* FoodModel.xcdatamodeld */; };
+		73EEA8BA2951220B003CF3DA /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EEA8B92951220B003CF3DA /* SplashScreenView.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		73EEA88A29511E5F003CF3DA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 73EEA87129511E5E003CF3DA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 73EEA87829511E5E003CF3DA;
-			remoteInfo = CaloriesMeasurement;
-		};
-		73EEA89429511E5F003CF3DA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 73EEA87129511E5E003CF3DA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 73EEA87829511E5E003CF3DA;
-			remoteInfo = CaloriesMeasurement;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		73EEA87929511E5E003CF3DA /* CaloriesMeasurement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaloriesMeasurement.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,29 +25,16 @@
 		73EEA87E29511E5E003CF3DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		73EEA88029511E5F003CF3DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73EEA88329511E5F003CF3DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		73EEA88929511E5F003CF3DA /* CaloriesMeasurementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaloriesMeasurementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		73EEA88D29511E5F003CF3DA /* CaloriesMeasurementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesMeasurementTests.swift; sourceTree = "<group>"; };
-		73EEA89329511E5F003CF3DA /* CaloriesMeasurementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaloriesMeasurementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		73EEA89729511E5F003CF3DA /* CaloriesMeasurementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesMeasurementUITests.swift; sourceTree = "<group>"; };
-		73EEA89929511E5F003CF3DA /* CaloriesMeasurementUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesMeasurementUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		73EEA8A929511F68003CF3DA /* TimeFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormatting.swift; sourceTree = "<group>"; };
+		73EEA8AF29512004003CF3DA /* AddFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodView.swift; sourceTree = "<group>"; };
+		73EEA8B12951201A003CF3DA /* EditFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFoodView.swift; sourceTree = "<group>"; };
+		73EEA8B429512077003CF3DA /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		73EEA8B729512096003CF3DA /* FoodModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodModel.xcdatamodel; sourceTree = "<group>"; };
+		73EEA8B92951220B003CF3DA /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		73EEA87629511E5E003CF3DA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		73EEA88629511E5F003CF3DA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		73EEA89029511E5F003CF3DA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,9 +48,8 @@
 			isa = PBXGroup;
 			children = (
 				73EEA87B29511E5E003CF3DA /* CaloriesMeasurement */,
-				73EEA88C29511E5F003CF3DA /* CaloriesMeasurementTests */,
-				73EEA89629511E5F003CF3DA /* CaloriesMeasurementUITests */,
 				73EEA87A29511E5E003CF3DA /* Products */,
+				73F826DF29538CFC00201E64 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,8 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				73EEA87929511E5E003CF3DA /* CaloriesMeasurement.app */,
-				73EEA88929511E5F003CF3DA /* CaloriesMeasurementTests.xctest */,
-				73EEA89329511E5F003CF3DA /* CaloriesMeasurementUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,7 +65,9 @@
 			isa = PBXGroup;
 			children = (
 				73EEA87C29511E5E003CF3DA /* CaloriesMeasurementApp.swift */,
-				73EEA87E29511E5E003CF3DA /* ContentView.swift */,
+				73EEA8B329512030003CF3DA /* DataModel */,
+				73EEA8A629511ED7003CF3DA /* Helpers */,
+				73EEA8A729511EF2003CF3DA /* Views */,
 				73EEA88029511E5F003CF3DA /* Assets.xcassets */,
 				73EEA88229511E5F003CF3DA /* Preview Content */,
 			);
@@ -110,21 +82,39 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		73EEA88C29511E5F003CF3DA /* CaloriesMeasurementTests */ = {
+		73EEA8A629511ED7003CF3DA /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				73EEA88D29511E5F003CF3DA /* CaloriesMeasurementTests.swift */,
+				73EEA8A929511F68003CF3DA /* TimeFormatting.swift */,
 			);
-			path = CaloriesMeasurementTests;
+			path = Helpers;
 			sourceTree = "<group>";
 		};
-		73EEA89629511E5F003CF3DA /* CaloriesMeasurementUITests */ = {
+		73EEA8A729511EF2003CF3DA /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				73EEA89729511E5F003CF3DA /* CaloriesMeasurementUITests.swift */,
-				73EEA89929511E5F003CF3DA /* CaloriesMeasurementUITestsLaunchTests.swift */,
+				73EEA87E29511E5E003CF3DA /* ContentView.swift */,
+				73EEA8B92951220B003CF3DA /* SplashScreenView.swift */,
+				73EEA8AF29512004003CF3DA /* AddFoodView.swift */,
+				73EEA8B12951201A003CF3DA /* EditFoodView.swift */,
 			);
-			path = CaloriesMeasurementUITests;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		73EEA8B329512030003CF3DA /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				73EEA8B429512077003CF3DA /* DataController.swift */,
+				73EEA8B629512096003CF3DA /* FoodModel.xcdatamodeld */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		73F826DF29538CFC00201E64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,42 +137,6 @@
 			productReference = 73EEA87929511E5E003CF3DA /* CaloriesMeasurement.app */;
 			productType = "com.apple.product-type.application";
 		};
-		73EEA88829511E5F003CF3DA /* CaloriesMeasurementTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 73EEA8A029511E5F003CF3DA /* Build configuration list for PBXNativeTarget "CaloriesMeasurementTests" */;
-			buildPhases = (
-				73EEA88529511E5F003CF3DA /* Sources */,
-				73EEA88629511E5F003CF3DA /* Frameworks */,
-				73EEA88729511E5F003CF3DA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				73EEA88B29511E5F003CF3DA /* PBXTargetDependency */,
-			);
-			name = CaloriesMeasurementTests;
-			productName = CaloriesMeasurementTests;
-			productReference = 73EEA88929511E5F003CF3DA /* CaloriesMeasurementTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		73EEA89229511E5F003CF3DA /* CaloriesMeasurementUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 73EEA8A329511E5F003CF3DA /* Build configuration list for PBXNativeTarget "CaloriesMeasurementUITests" */;
-			buildPhases = (
-				73EEA88F29511E5F003CF3DA /* Sources */,
-				73EEA89029511E5F003CF3DA /* Frameworks */,
-				73EEA89129511E5F003CF3DA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				73EEA89529511E5F003CF3DA /* PBXTargetDependency */,
-			);
-			name = CaloriesMeasurementUITests;
-			productName = CaloriesMeasurementUITests;
-			productReference = 73EEA89329511E5F003CF3DA /* CaloriesMeasurementUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +149,6 @@
 				TargetAttributes = {
 					73EEA87829511E5E003CF3DA = {
 						CreatedOnToolsVersion = 14.2;
-					};
-					73EEA88829511E5F003CF3DA = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 73EEA87829511E5E003CF3DA;
-					};
-					73EEA89229511E5F003CF3DA = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 73EEA87829511E5E003CF3DA;
 					};
 				};
 			};
@@ -220,8 +166,6 @@
 			projectRoot = "";
 			targets = (
 				73EEA87829511E5E003CF3DA /* CaloriesMeasurement */,
-				73EEA88829511E5F003CF3DA /* CaloriesMeasurementTests */,
-				73EEA89229511E5F003CF3DA /* CaloriesMeasurementUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,20 +180,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		73EEA88729511E5F003CF3DA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		73EEA89129511E5F003CF3DA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -257,42 +187,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73EEA8B529512077003CF3DA /* DataController.swift in Sources */,
+				73EEA8B029512004003CF3DA /* AddFoodView.swift in Sources */,
 				73EEA87F29511E5E003CF3DA /* ContentView.swift in Sources */,
+				73EEA8B22951201A003CF3DA /* EditFoodView.swift in Sources */,
 				73EEA87D29511E5E003CF3DA /* CaloriesMeasurementApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		73EEA88529511E5F003CF3DA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				73EEA88E29511E5F003CF3DA /* CaloriesMeasurementTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		73EEA88F29511E5F003CF3DA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				73EEA89829511E5F003CF3DA /* CaloriesMeasurementUITests.swift in Sources */,
-				73EEA89A29511E5F003CF3DA /* CaloriesMeasurementUITestsLaunchTests.swift in Sources */,
+				73EEA8AA29511F68003CF3DA /* TimeFormatting.swift in Sources */,
+				73EEA8B829512096003CF3DA /* FoodModel.xcdatamodeld in Sources */,
+				73EEA8BA2951220B003CF3DA /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		73EEA88B29511E5F003CF3DA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 73EEA87829511E5E003CF3DA /* CaloriesMeasurement */;
-			targetProxy = 73EEA88A29511E5F003CF3DA /* PBXContainerItemProxy */;
-		};
-		73EEA89529511E5F003CF3DA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 73EEA87829511E5E003CF3DA /* CaloriesMeasurement */;
-			targetProxy = 73EEA89429511E5F003CF3DA /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		73EEA89B29511E5F003CF3DA /* Debug */ = {
@@ -412,13 +318,16 @@
 		73EEA89E29511E5F003CF3DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon 1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CaloriesMeasurement/Preview Content\"";
+				DEVELOPMENT_TEAM = RGY9LRTF2V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Calorie measurement";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -429,8 +338,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.CaloriesMeasurement;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CaloriesMeasurement1988;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -440,13 +350,16 @@
 		73EEA89F29511E5F003CF3DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon 1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CaloriesMeasurement/Preview Content\"";
+				DEVELOPMENT_TEAM = RGY9LRTF2V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Calorie measurement";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -457,83 +370,12 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.CaloriesMeasurement;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CaloriesMeasurement1988;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		73EEA8A129511E5F003CF3DA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.CaloriesMeasurementTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaloriesMeasurement.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CaloriesMeasurement";
-			};
-			name = Debug;
-		};
-		73EEA8A229511E5F003CF3DA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.CaloriesMeasurementTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaloriesMeasurement.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CaloriesMeasurement";
-			};
-			name = Release;
-		};
-		73EEA8A429511E5F003CF3DA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.CaloriesMeasurementUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CaloriesMeasurement;
-			};
-			name = Debug;
-		};
-		73EEA8A529511E5F003CF3DA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.CaloriesMeasurementUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CaloriesMeasurement;
 			};
 			name = Release;
 		};
@@ -558,25 +400,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		73EEA8A029511E5F003CF3DA /* Build configuration list for PBXNativeTarget "CaloriesMeasurementTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				73EEA8A129511E5F003CF3DA /* Debug */,
-				73EEA8A229511E5F003CF3DA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		73EEA8A329511E5F003CF3DA /* Build configuration list for PBXNativeTarget "CaloriesMeasurementUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				73EEA8A429511E5F003CF3DA /* Debug */,
-				73EEA8A529511E5F003CF3DA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		73EEA8B629512096003CF3DA /* FoodModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				73EEA8B729512096003CF3DA /* FoodModel.xcdatamodel */,
+			);
+			currentVersion = 73EEA8B729512096003CF3DA /* FoodModel.xcdatamodel */;
+			path = FoodModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 73EEA87129511E5E003CF3DA /* Project object */;
 }

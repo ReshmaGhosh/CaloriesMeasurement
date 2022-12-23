@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct CaloriesMeasurementApp: App {
+    
+    @StateObject var dataController = DataController()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreenView()
+                .environment(\.managedObjectContext, dataController.container.viewContext)
         }
     }
 }
